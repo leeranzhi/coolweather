@@ -3,3 +3,14 @@
 
 项目来源郭霖老师[https://github.com/guolindev/coolweather](https://github.com/guolindev/coolweather)
 
+1.天气主界面
+
+<img src="https://github.com/leeranzhi/coolweather/blob/master/Screenshot/S80511-191809.jpg" height="30%" width="30%">
+
+2.选择城市
+
+<img src="https://github.com/leeranzhi/coolweather/blob/master/Screenshot/S80511-191812.jpg" height="30%" width="30%">
+
+3.下拉更新当前城市天气
+
+<img src="https://github.com/leeranzhi/coolweather/blob/master/Screenshot/S80511-191823.jpg" height="30%" width="30%">
