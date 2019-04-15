@@ -76,8 +76,8 @@ public class WeatherActivity extends AppCompatActivity {
         sportText = (TextView) findViewById(R.id.sport_text);
         swipeRefresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
         swipeRefresh.setColorSchemeResources(R.color.colorPrimary);
-        drawerLayout=(DrawerLayout)findViewById(R.id.draw_layout);
-        navButton=(Button)findViewById(R.id.nav_button);
+        drawerLayout = (DrawerLayout) findViewById(R.id.draw_layout);
+        navButton = (Button) findViewById(R.id.nav_button);
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         String weatherString = prefs.getString("weather", null);
         if (weatherString != null) {
@@ -158,6 +158,7 @@ public class WeatherActivity extends AppCompatActivity {
                     }
                 });
             }
+
             /**
              *每次收到响应后，保存至本地并替换旧的天气数据
              */
@@ -226,7 +227,7 @@ public class WeatherActivity extends AppCompatActivity {
         carWashText.setText(carWash);
         sportText.setText(sport);
         weatherLayout.setVisibility(View.VISIBLE);
-        Intent intent=new Intent(this, AutoUpdateService.class);
+        Intent intent = new Intent(this, AutoUpdateService.class);
         startService(intent);
     }
 }
